@@ -1,0 +1,11 @@
+{
+  "development": {
+    "username": "",
+    "password": "",
+    "host": "127.0.0.1:27017",
+    "dbName": "gold_db"
+  },
+  "jwt":{
+    "secret":"123456789012345678901234567890"
+  }
+}
