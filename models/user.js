@@ -10,4 +10,4 @@ let userSchema = new Schema({
 
 let Users = mongoose.model('Users', userSchema);
 
-moudle.exports = Users;
+module.exports = Users;

@@ -39,10 +39,6 @@ exports = module.exports = function (app) {
 //     // console.log('middleware going on...');
 //     next();
 // });
-
-    app.route('/api/users')
-        .get(users.all)
-        .post(users.create);
-    app.get('/api/users/:id', users.getOne);
-    app.put('/api/users/:id', verifyToken,  users.update);
+    app.get('/api/users', users.all);
+    app.post('/api/users', users.create);
 };
